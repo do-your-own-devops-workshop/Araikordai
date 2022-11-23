@@ -1,4 +1,4 @@
-# Agoda CI Workshop 2022 poom
+# Agoda CI Workshop 2022
 
 This example is a part of "Do your own DevOps workshop" by Tech@agoda.
 
