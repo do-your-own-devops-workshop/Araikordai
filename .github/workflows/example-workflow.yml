@@ -31,9 +31,9 @@ jobs:
     - name: Login to GitHub Container Registry
     - name: Use Node.js 16
       uses: actions/setup-node@v3
-        with:
-          node-version: 16.x
-          - run: yarn
-          - run: npx playwright install chromium
-          - run: yarn test:e2e
+      with:
+        node-version: 16.x
+    - run: yarn
+    - run: npx playwright install chromium
+    - run: yarn test:e2e
    
